@@ -12,13 +12,14 @@
               <v-list-item-title v-text="item.title" />
             </template>
             <v-list-item
-                v-for="subItem in item.items"
-                :key="subItem.title"
-              >
-                <v-list-item-content>
-                  <v-list-item-title v-text="subItem.title" />
-                </v-list-item-content>
-              </v-list-item>
+              v-for="subItem in item.items"
+              :key="subItem.title"
+              :to="getRoutePath(subItem.title)"
+            >
+              <v-list-item-content>
+                <v-list-item-title v-text="subItem.title" />
+              </v-list-item-content>
+            </v-list-item>
           </v-list-group>
         </template>
         <template v-else>

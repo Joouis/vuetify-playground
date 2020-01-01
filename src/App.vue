@@ -38,6 +38,12 @@
 
 <script>
 
+/*
+ * TODO:
+ *  - Implement back button at app bar
+ *  - Show back button if route is not root
+ */
+
 export default {
   name: 'App',
 
