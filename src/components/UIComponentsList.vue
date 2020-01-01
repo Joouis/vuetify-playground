@@ -22,7 +22,7 @@
           </v-list-group>
         </template>
         <template v-else>
-          <v-list-item :key="item.title">
+          <v-list-item :key="item.title" :to="getRoutePath(item.title)">
             <v-list-item-icon :key="item.title" />
             <v-list-item-title v-text="item.title" />
           </v-list-item>
@@ -36,7 +36,7 @@
 export default {
   name: 'UIComponentsList',
 
-  data () {
+  data() {
     return {
       menuItems: [
         {
@@ -59,6 +59,12 @@ export default {
             }]
         }
       ],
+    }
+  },
+
+  methods: {
+    getRoutePath: (title) => {
+      return title.toLowerCase().split(' ').join('-');
     }
   }
 };
