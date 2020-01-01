@@ -1,1 +1,10 @@
+.DS_Store
 node_modules/
+.env
+*.log
+dist/
+
+# IDE user config
+.vscode/
+.idea/
+.vs/
