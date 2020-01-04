@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-3 pr-3">
+  <ExampleWrapper>
     <v-subheader>Type</v-subheader>
     <Type />
     <v-subheader>Border</v-subheader>
@@ -22,10 +22,11 @@
     <Transition />
     <v-subheader>Twitter alert</v-subheader>
     <TwitterAlert />
-  </div>
+  </ExampleWrapper>
 </template>
 
 <script>
+import ExampleWrapper from './ExampleWrapper';
 import Type from './alerts/Type';
 import Border from './alerts/Border';
 import ColoredBorder from './alerts/ColoredBorder';
@@ -42,6 +43,7 @@ export default {
   name: 'Alerts',
   
   components: {
+    ExampleWrapper,
     Type,
     Border,
     ColoredBorder,
