@@ -20,7 +20,7 @@
     <TextAlert />
     <v-subheader>Transition</v-subheader>
     <Transition />
-    <v-subheader>Twitter alert</v-subheader>
+    <v-subheader>Twitter Alert</v-subheader>
     <TwitterAlert />
   </ExampleWrapper>
 </template>

@@ -53,7 +53,7 @@ export default {
             }, {
               title: 'Toolbars'
             }, {
-              title: 'System bars'
+              title: 'System Bars'
             }]
         }
       ],

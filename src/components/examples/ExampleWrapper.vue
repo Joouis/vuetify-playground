@@ -3,3 +3,9 @@
     <slot />
   </div>
 </template>
+
+<style scoped>
+.v-subheader {
+  padding: 0;
+}
+</style>>
