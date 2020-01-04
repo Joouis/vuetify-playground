@@ -1,8 +1,5 @@
 <template>
-  <v-card
-    max-width="500"
-    class="mx-auto"
-  >
+  <v-card class="mx-auto">
     <v-list>
       <v-subheader>UI Components</v-subheader>
       <template v-for="item in menuItems">

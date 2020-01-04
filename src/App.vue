@@ -6,23 +6,20 @@
       dark
     >
       <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        <template v-if="isHomePage">
+          <v-img
+            alt="Vuetify Logo"
+            class="shrink mr-2"
+            contain
+            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+            transition="scale-transition"
+            width="40"
+            height="40"
+          />
+        </template>
+        <template v-else>
+          <v-icon large dark v-on:click="routeBack">mdi-chevron-left</v-icon>
+        </template>
       </div>
 
       <v-spacer />
@@ -49,6 +46,18 @@ export default {
 
   components: {},
 
-  data: () => ({})
+  data: () => ({}),
+
+  computed: {
+    isHomePage: function() {
+      return this.$route.path === "/";
+    }
+  },
+
+  methods: {
+    routeBack: function() {
+      this.$router.back();
+    }
+  }
 };
 </script>
