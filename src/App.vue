@@ -24,7 +24,7 @@
 
       <v-spacer />
 
-      <v-toolbar-title>Vuetify Mobile Playground</v-toolbar-title>
+      <v-toolbar-title>Vuetify Playground</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
