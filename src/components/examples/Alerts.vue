@@ -1,30 +1,28 @@
 <template>
-  <v-row>
-    <v-col cols="12" sm="6" offset-sm="3">
-      <v-subheader>Type</v-subheader>
-      <Type />
-      <v-subheader>Border</v-subheader>
-      <Border />
-      <v-subheader>Colored Border</v-subheader>
-      <ColoredBorder />
-      <v-subheader>Dense</v-subheader>
-      <Dense />
-      <v-subheader>Dismissible</v-subheader>
-      <Dismissible />
-      <v-subheader>Icon</v-subheader>
-      <Icon />
-      <v-subheader>Outlined</v-subheader>
-      <Outlined />
-      <v-subheader>Prominent</v-subheader>
-      <Prominent />
-      <v-subheader>Text</v-subheader>
-      <Text />
-      <v-subheader>Transition</v-subheader>
-      <Transition />
-      <v-subheader>Twitter alert</v-subheader>
-      <TwitterAlert />
-    </v-col>
-  </v-row>
+  <div class="pl-3 pr-3">
+    <v-subheader>Type</v-subheader>
+    <Type />
+    <v-subheader>Border</v-subheader>
+    <Border />
+    <v-subheader>Colored Border</v-subheader>
+    <ColoredBorder />
+    <v-subheader>Dense</v-subheader>
+    <Dense />
+    <v-subheader>Dismissible</v-subheader>
+    <Dismissible />
+    <v-subheader>Icon</v-subheader>
+    <Icon />
+    <v-subheader>Outlined</v-subheader>
+    <Outlined />
+    <v-subheader>Prominent</v-subheader>
+    <Prominent />
+    <v-subheader>Text</v-subheader>
+    <TextAlert />
+    <v-subheader>Transition</v-subheader>
+    <Transition />
+    <v-subheader>Twitter alert</v-subheader>
+    <TwitterAlert />
+  </div>
 </template>
 
 <script>
@@ -52,7 +50,8 @@ export default {
     Icon,
     Outlined,
     Prominent,
-    Text,
+    // Do not use built-in or reserved HTML elements as component id
+    TextAlert: Text,
     Transition,
     TwitterAlert
   },

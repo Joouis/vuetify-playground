@@ -18,7 +18,7 @@
           />
         </template>
         <template v-else>
-          <v-icon large dark v-on:click="routeBack">mdi-chevron-left</v-icon>
+          <v-icon x-large dark v-on:click="routeBack">mdi-chevron-left</v-icon>
         </template>
       </div>
 
