@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import UIComponentsList from '../components/UIComponentsList.vue';
+import PageNotFound from '../components/PageNotFound.vue';
 import Alerts from '../components/examples/Alerts';
 import Avatars from '../components/examples/Avatars';
 import Badges from '../components/examples/Badges';
@@ -18,7 +19,8 @@ const routes = [
   { path: '/badges', component: Badges },
   { path: '/banners', component: Banners },
   { path: '/app-bars', component: AppBars },
-  { path: '/toolbars', component: Toolbars }
+  { path: '/toolbars', component: Toolbars },
+  { path: '*', component: PageNotFound }
 ];
 
 export default new VueRouter({ routes });
