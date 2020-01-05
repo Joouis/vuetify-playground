@@ -5,26 +5,28 @@
       color="primary"
       dark
     >
-      <div class="d-flex align-center">
-        <template v-if="isHomePage">
-          <v-img
-            alt="Vuetify Logo"
-            class="shrink mr-2"
-            contain
-            src="@/assets/logo.png"
-            transition="scale-transition"
-            width="40"
-            height="40"
-          />
-        </template>
-        <template v-else>
-          <v-icon x-large dark v-on:click="routeBack">mdi-chevron-left</v-icon>
-        </template>
-      </div>
-
-      <v-spacer />
-
-      <v-toolbar-title>Vuetify Playground</v-toolbar-title>
+      <v-row>
+        <v-col class="d-flex align-center">
+          <template v-if="isHomePage">
+            <v-img
+              alt="Vuetify Logo"
+              class="shrink mr-2"
+              contain
+              src="@/assets/logo.png"
+              transition="scale-transition"
+              width="32"
+              height="32"
+            />
+          </template>
+          <template v-else>
+            <v-icon x-large dark v-on:click="routeBack">mdi-chevron-left</v-icon>
+          </template>
+        </v-col>
+        <v-col class="d-flex align-center justify-center">
+          <v-toolbar-title v-text="title" />
+        </v-col>
+        <v-col />
+      </v-row>
     </v-app-bar>
 
     <v-content>
@@ -34,7 +36,10 @@
 </template>
 
 <script>
-// TODO: change header title for sub-route
+const capitalizeFirstLetter = str => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 export default {
   name: 'App',
 
@@ -44,7 +49,11 @@ export default {
 
   computed: {
     isHomePage: function() {
-      return this.$route.path === "/";
+      return this.$route.path === '/';
+    },
+    title: function() {
+      const { path } = this.$route;
+      return path === '/' ? 'Vuetify Playground' : path.slice(1).split('-').map(capitalizeFirstLetter).join(' ');
     }
   },
 
