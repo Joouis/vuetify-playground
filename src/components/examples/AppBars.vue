@@ -40,7 +40,7 @@ import ProminentWScrollShrinkAndImageFadingOnScroll from './app-bars/ProminentWS
 import WithMenu from './app-bars/WithMenu';
 
 export default {
-  name: 'App Bars',
+  name: 'AppBars',
   
   components: {
     ExampleWrapper,

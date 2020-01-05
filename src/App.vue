@@ -34,6 +34,7 @@
 </template>
 
 <script>
+// TODO: change header title for sub-route
 export default {
   name: 'App',
 

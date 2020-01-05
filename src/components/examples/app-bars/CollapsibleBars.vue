@@ -29,3 +29,11 @@
     </v-sheet>
   </v-card>
 </template>
+
+<script>
+  export default {
+    data: () => ({
+      collapseOnScroll: true,
+    }),
+  }
+</script>
