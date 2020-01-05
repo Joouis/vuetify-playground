@@ -1,38 +1,19 @@
+<p align="center">
+<img src="./public/qr-code.png" width="300">
+</p>
+
+
+
 # [Vuetify Playground](https://joouis.com/vuetify-playground/)
 
 ## Introduction
 
-Developers new to Vuetify must want to go through all its UI components quickly. For me, it's also very important to know the mobile experience of it. After surveying official website and popular resources from `awesome-vuetify`, there is no common playground about this. So I build this playground from the official examples on Vuetify website with 2 advantages:
+Developers new to Vuetify must want to go through all its UI components quickly. For me, it's also very important to know the mobile experience of it. After checking official website and popular resources from `awesome-vuetify`, there is no common playground (like React Native Playground) about this. So I build this playground from the official examples on Vuetify website with 2 advantages:
 
 - For the developers who's surveying this framework, it's more convenient to see and try all UI components at once, without loading every page and seeing much descriptions.
 - It's designed for mobile at first, so both mobile and PC users can take advantage of it.
 
-Click [here](https://joouis.com/vuetify-playground/) or scan QR code below to take a look. Hope it helps!
-
-![](./public/qr-code.png)
-
-
-
-## Project setup
-
-```
-yarn install
-```
-
-#### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-#### Compiles and minifies for production
-```
-yarn build
-```
-
-#### Lints and fixes files
-```
-yarn lint
-```
+Click [here](https://joouis.com/vuetify-playground/) or scan [QR code](./public/qr-code.png) at top to take a look. Hope it helps!
 
 
 
