@@ -9,6 +9,7 @@ import Badges from '../components/examples/Badges';
 import Banners from '../components/examples/Banners';
 import AppBars from '../components/examples/AppBars';
 import Toolbars from '../components/examples/Toolbars';
+import SystemBars from '../components/examples/SystemBars';
 
 Vue.use(VueRouter);
 
@@ -20,6 +21,7 @@ const routes = [
   { path: '/banners', component: Banners },
   { path: '/app-bars', component: AppBars },
   { path: '/toolbars', component: Toolbars },
+  { path: '/system-bars', component: SystemBars },
   { path: '*', component: PageNotFound }
 ];
 
