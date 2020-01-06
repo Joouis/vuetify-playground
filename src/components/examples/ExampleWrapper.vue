@@ -1,5 +1,5 @@
 <template>
-  <div class="pl-3 pr-3">
+  <div class="pl-3 pr-3 mb-6">
     <slot />
   </div>
 </template>

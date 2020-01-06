@@ -5,7 +5,6 @@
         <v-system-bar
           color="orange"
           :height="height"
-          :lights-out="lightsOut"
           :window="window"
         >
           <v-icon>mdi-gmail</v-icon>
@@ -19,7 +18,7 @@
       </v-card>
     </v-container>
 
-    <v-row>
+    <div class="d-flex">
       <v-col cols="4">
         <v-text-field
           v-model="height"
@@ -34,12 +33,9 @@
         ></v-text-field>
       </v-col>
       <v-col cols="4">
-        <v-switch v-model="lightsOut" label="Toggle lights-out" class="mx-4"></v-switch>
+        <v-switch v-model="window" label="Toggle window" class="mx-4" />
       </v-col>
-      <v-col cols="4">
-        <v-switch v-model="window" label="Toggle window" class="mx-4"></v-switch>
-      </v-col>
-    </v-row>
+    </div>
   </v-row>
 </template>
 
@@ -47,7 +43,6 @@
   export default {
     data: () => ({
       height: 30,
-      lightsOut: false,
       window: false,
     }),
   }
