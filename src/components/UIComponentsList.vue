@@ -31,32 +31,14 @@
 </template>
 
 <script>
+import { COMPONENTS_MANIFEST } from './UIComponentsList';
+
 export default {
   name: 'UIComponentsList',
 
   data() {
     return {
-      menuItems: [
-        {
-          title: 'Alerts'
-        }, {
-          title: 'Avatars'
-        }, {
-          title: 'Badges'
-        }, {
-          title: 'Banners'
-        }, {
-          title: 'Bars',
-          items: [
-            {
-              title: 'App Bars'
-            }, {
-              title: 'Toolbars'
-            }, {
-              title: 'System Bars'
-            }]
-        }
-      ],
+      menuItems: COMPONENTS_MANIFEST,
     }
   },
 
