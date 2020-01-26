@@ -10,6 +10,7 @@ import Banners from '../components/examples/Banners';
 import AppBars from '../components/examples/AppBars';
 import Toolbars from '../components/examples/Toolbars';
 import SystemBars from '../components/examples/SystemBars';
+import BottomNavigation from '../components/examples/BottomNavigation';
 
 Vue.use(VueRouter);
 
@@ -22,6 +23,7 @@ const routes = [
   { path: '/app-bars', component: AppBars },
   { path: '/toolbars', component: Toolbars },
   { path: '/system-bars', component: SystemBars },
+  { path: '/bottom-navigation', component: BottomNavigation },
   { path: '*', component: PageNotFound }
 ];
 
