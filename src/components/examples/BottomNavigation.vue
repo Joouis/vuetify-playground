@@ -27,7 +27,6 @@ import Toggle from './bottom-navigation/Toggle';
 import HideOnScroll from './bottom-navigation/HideOnScroll';
 import ScrollThreshold from './bottom-navigation/ScrollThreshold';
 
-// FIXME: badges do not show up.
 export default {
   name: 'Bottom navigation',
   
