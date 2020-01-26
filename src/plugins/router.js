@@ -13,6 +13,7 @@ import SystemBars from '../components/examples/SystemBars';
 import BottomNavigation from '../components/examples/BottomNavigation';
 import BottomSheets from '../components/examples/BottomSheets';
 import Breadcrumbs from '../components/examples/Breadcrumbs';
+import Buttons from '../components/examples/Buttons';
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,7 @@ const routes = [
   { path: '/bottom-navigation', component: BottomNavigation },
   { path: '/bottom-sheets', component: BottomSheets },
   { path: '/breadcrumbs', component: Breadcrumbs },
+  { path: '/buttons', component: Buttons },
   { path: '*', component: PageNotFound }
 ];
 
