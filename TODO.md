@@ -1,0 +1,1 @@
+- Support `Playground` component in `AppBars` `Toolbars` components.
