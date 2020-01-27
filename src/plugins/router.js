@@ -18,6 +18,7 @@ import FloatingActionButtons from '../components/examples/FloatingActionButtons'
 import Calendars from '../components/examples/Calendars';
 import Cards from '../components/examples/Cards';
 import Carousels from '../components/examples/Carousels';
+import Chips from '../components/examples/Chips';
 
 Vue.use(VueRouter);
 
@@ -38,6 +39,7 @@ const routes = [
   { path: '/calendars', component: Calendars },
   { path: '/cards', component: Cards },
   { path: '/carousels', component: Carousels },
+  { path: '/chips', component: Chips },
   { path: '*', component: PageNotFound }
 ];
 
