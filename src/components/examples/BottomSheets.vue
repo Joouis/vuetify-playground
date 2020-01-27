@@ -3,7 +3,7 @@
     <v-subheader>Persistent</v-subheader>
     <Persistent />
     <v-subheader>"v-model" control</v-subheader>
-    <VmodelControl />
+    <VModelControl />
     <v-subheader>Inset</v-subheader>
     <Inset />
     <v-subheader>Music Player</v-subheader>
@@ -16,7 +16,7 @@
 <script>
 import ExampleWrapper from './ExampleWrapper';
 import Persistent from './bottom-sheets/Persistent';
-import VmodelControl from './bottom-sheets/VmodelControl';
+import VModelControl from './bottom-sheets/VModelControl';
 import Inset from './bottom-sheets/Inset';
 import MusicPlayer from './bottom-sheets/MusicPlayer';
 import OpenInList from './bottom-sheets/OpenInList';
@@ -27,7 +27,7 @@ export default {
   components: {
     ExampleWrapper,
     Persistent,
-    VmodelControl,
+    VModelControl,
     Inset,
     MusicPlayer,
     OpenInList

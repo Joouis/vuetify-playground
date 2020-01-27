@@ -40,7 +40,7 @@ import WeatherCard from './cards/WeatherCard';
 import Advanced from './cards/Advanced';
 
 export default {
-  name: 'Buttons',
+  name: 'Cards',
   
   components: {
     ExampleWrapper,

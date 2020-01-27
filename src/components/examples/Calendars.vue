@@ -22,7 +22,7 @@ import Slots from './calendars/Slots';
 import Events from './calendars/Events';
 
 export default {
-  name: 'Buttons',
+  name: 'Calendars',
   
   components: {
     ExampleWrapper,
