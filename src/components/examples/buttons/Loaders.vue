@@ -61,7 +61,7 @@
     </v-btn>
   </div>
 </template>
-<style>
+<style scoped>
   .custom-loader {
     animation: loader 1s infinite;
     display: flex;

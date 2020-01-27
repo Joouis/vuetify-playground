@@ -28,7 +28,7 @@ import HideOnScroll from './bottom-navigation/HideOnScroll';
 import ScrollThreshold from './bottom-navigation/ScrollThreshold';
 
 export default {
-  name: 'Bottom navigation',
+  name: 'BottomNavigation',
   
   components: {
     ExampleWrapper,

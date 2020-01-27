@@ -22,7 +22,7 @@ import MusicPlayer from './bottom-sheets/MusicPlayer';
 import OpenInList from './bottom-sheets/OpenInList';
 
 export default {
-  name: 'Bottom sheets',
+  name: 'BottomSheets',
   
   components: {
     ExampleWrapper,

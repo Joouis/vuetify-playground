@@ -22,7 +22,7 @@ import Themes from './system-bars/Themes';
 import WindowBar from './system-bars/WindowBar';
 
 export default {
-  name: 'System bars',
+  name: 'SystemBars',
   
   components: {
     ExampleWrapper,
