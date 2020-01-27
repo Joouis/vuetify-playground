@@ -15,6 +15,7 @@ import BottomSheets from '../components/examples/BottomSheets';
 import Breadcrumbs from '../components/examples/Breadcrumbs';
 import Buttons from '../components/examples/Buttons';
 import FloatingActionButtons from '../components/examples/FloatingActionButtons';
+import Calendars from '../components/examples/Calendars';
 
 Vue.use(VueRouter);
 
@@ -32,6 +33,7 @@ const routes = [
   { path: '/breadcrumbs', component: Breadcrumbs },
   { path: '/buttons', component: Buttons },
   { path: '/floating-action-buttons', component: FloatingActionButtons },
+  { path: '/calendars', component: Calendars },
   { path: '*', component: PageNotFound }
 ];
 
