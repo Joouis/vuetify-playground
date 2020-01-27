@@ -22,6 +22,7 @@ import Chips from '../components/examples/Chips';
 import Dialogs from '../components/examples/Dialogs';
 import Dividers from '../components/examples/Dividers';
 import ExpansionPanels from '../components/examples/ExpansionPanels';
+import Footer from '../components/examples/Footer';
 
 Vue.use(VueRouter);
 
@@ -46,6 +47,7 @@ const routes = [
   { path: '/dialogs', component: Dialogs },
   { path: '/dividers', component: Dividers },
   { path: '/expansion-panels', component: ExpansionPanels },
+  { path: '/footer', component: Footer },
   { path: '*', component: PageNotFound }
 ];
 
