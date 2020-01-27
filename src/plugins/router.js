@@ -21,6 +21,7 @@ import Carousels from '../components/examples/Carousels';
 import Chips from '../components/examples/Chips';
 import Dialogs from '../components/examples/Dialogs';
 import Dividers from '../components/examples/Dividers';
+import ExpansionPanels from '../components/examples/ExpansionPanels';
 
 Vue.use(VueRouter);
 
@@ -44,6 +45,7 @@ const routes = [
   { path: '/chips', component: Chips },
   { path: '/dialogs', component: Dialogs },
   { path: '/dividers', component: Dividers },
+  { path: '/expansion-panels', component: ExpansionPanels },
   { path: '*', component: PageNotFound }
 ];
 
