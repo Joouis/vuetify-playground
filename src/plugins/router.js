@@ -19,6 +19,7 @@ import Calendars from '../components/examples/Calendars';
 import Cards from '../components/examples/Cards';
 import Carousels from '../components/examples/Carousels';
 import Chips from '../components/examples/Chips';
+import Dialogs from '../components/examples/Dialogs';
 
 Vue.use(VueRouter);
 
@@ -40,6 +41,7 @@ const routes = [
   { path: '/cards', component: Cards },
   { path: '/carousels', component: Carousels },
   { path: '/chips', component: Chips },
+  { path: '/dialogs', component: Dialogs },
   { path: '*', component: PageNotFound }
 ];
 
