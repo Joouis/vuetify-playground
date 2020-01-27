@@ -20,6 +20,7 @@ import Cards from '../components/examples/Cards';
 import Carousels from '../components/examples/Carousels';
 import Chips from '../components/examples/Chips';
 import Dialogs from '../components/examples/Dialogs';
+import Dividers from '../components/examples/Dividers';
 
 Vue.use(VueRouter);
 
@@ -42,6 +43,7 @@ const routes = [
   { path: '/carousels', component: Carousels },
   { path: '/chips', component: Chips },
   { path: '/dialogs', component: Dialogs },
+  { path: '/dividers', component: Dividers },
   { path: '*', component: PageNotFound }
 ];
 
