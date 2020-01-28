@@ -6,6 +6,8 @@
 
 # [Vuetify Playground](https://joouis.com/vuetify-playground/)
 
+A playground to try all UI components of Vuetify.js at once!
+
 ## Introduction
 
 Developers new to Vuetify must want to go through all its UI components quickly. For me, it's also very important to know the mobile experience powered by it. After checking official website and popular resources from `awesome-vuetify`, there is no common playground (like React Native Playground) about this. So I build this playground from the official examples on Vuetify website with 2 advantages:
