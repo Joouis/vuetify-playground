@@ -26,6 +26,7 @@ import Footer from '../components/examples/Footer';
 import Grids from '../components/examples/Grids';
 import Hover from '../components/examples/Hover';
 import Icons from '../components/examples/Icons';
+import Images from '../components/examples/Images';
 
 Vue.use(VueRouter);
 
@@ -54,6 +55,7 @@ const routes = [
   { path: '/grids', component: Grids },
   { path: '/hover', component: Hover },
   { path: '/icons', component: Icons },
+  { path: '/images', component: Images },
   { path: '*', component: PageNotFound }
 ];
 

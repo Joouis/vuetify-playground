@@ -1,8 +1,5 @@
 <template>
   <ExampleWrapper>
-    <v-alert type="info" class="ml-n3 mr-n3">
-      Notice: only work in PC platforms.
-    </v-alert>
     <v-subheader>Disabled</v-subheader>
     <Disabled />
     <v-subheader>Open/Close Delay</v-subheader>
