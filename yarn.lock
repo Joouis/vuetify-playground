@@ -7887,6 +7887,13 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
+vue-cli-plugin-sitemap@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-sitemap/download/vue-cli-plugin-sitemap-1.0.4.tgz#11f6bbc9b994061e40aca3dd93f724f49813e70b"
+  integrity sha1-Efa7ybmUBh5ArKPdk/ck9JgT5ws=
+  dependencies:
+    ajv "^6.10.2"
+
 vue-cli-plugin-vuetify@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npm.taobao.org/vue-cli-plugin-vuetify/download/vue-cli-plugin-vuetify-2.0.2.tgz#160e573d59f2594b89531e95b0fdd74ca76ecd9d"

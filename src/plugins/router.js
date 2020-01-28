@@ -30,6 +30,7 @@ import Images from '../components/examples/Images';
 
 Vue.use(VueRouter);
 
+// Sync `./routes.js` file if routes below changed.
 const routes = [
   { path: '/', component: UIComponentsList },
   { path: '/alerts', component: Alerts },
