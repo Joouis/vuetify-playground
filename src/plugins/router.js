@@ -24,6 +24,7 @@ import Dividers from '../components/examples/Dividers';
 import ExpansionPanels from '../components/examples/ExpansionPanels';
 import Footer from '../components/examples/Footer';
 import Grids from '../components/examples/Grids';
+import Hover from '../components/examples/Hover';
 
 Vue.use(VueRouter);
 
@@ -50,6 +51,7 @@ const routes = [
   { path: '/expansion-panels', component: ExpansionPanels },
   { path: '/footer', component: Footer },
   { path: '/grids', component: Grids },
+  { path: '/hover', component: Hover },
   { path: '*', component: PageNotFound }
 ];
 
