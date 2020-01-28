@@ -5,5 +5,6 @@
 
 ## Bugs
 
-- `Draggable` example of `Chips` can't work in mobile devices.
+- `Draggable` example of `Chips` can't work on mobile devices.
 - Subheaders are not aligned with items in `Dividers and subheaders` example of `Dividers`.
+- `Grids` examples display not well on mobile devices.
