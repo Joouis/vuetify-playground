@@ -6,6 +6,6 @@ ghpages.publish('dist', err => {
   if (err) {
     console.log(err);
   }
-});
 
-console.log('Published!');
+  console.log('Published!');
+});
