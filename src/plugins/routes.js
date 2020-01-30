@@ -29,6 +29,7 @@ const routes = [
   { path: '/icons', name: 'Icons' },
   { path: '/images', name: 'Images' },
   { path: '/lazy', name: 'Lazy' },
+  { path: '/lists', name: 'Lists' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
@@ -37,7 +38,5 @@ const routes = [
   priority: 1,
   changefreq: 'monthly'
 }));
-
-// console.log(routes);
 
 module.exports = routes;
