@@ -27,6 +27,7 @@ import Grids from '../components/examples/Grids';
 import Hover from '../components/examples/Hover';
 import Icons from '../components/examples/Icons';
 import Images from '../components/examples/Images';
+import Lazy from '../components/examples/Lazy';
 
 Vue.use(VueRouter);
 
@@ -57,6 +58,7 @@ const routes = [
   { path: '/hover', component: Hover },
   { path: '/icons', component: Icons },
   { path: '/images', component: Images },
+  { path: '/lazy', component: Lazy },
   { path: '*', component: PageNotFound }
 ];
 

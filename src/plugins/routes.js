@@ -28,6 +28,7 @@ const routes = [
   { path: '/hover', name: 'Hover' },
   { path: '/icons', name: 'Icons' },
   { path: '/images', name: 'Images' },
+  { path: '/lazy', name: 'Lazy' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
