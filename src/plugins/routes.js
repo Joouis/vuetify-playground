@@ -31,6 +31,7 @@ const routes = [
   { path: '/lazy', name: 'Lazy' },
   { path: '/lists', name: 'Lists' },
   { path: '/menus', name: 'Menus' },
+  { path: '/navigation-drawers', name: 'NavigationDrawers' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,

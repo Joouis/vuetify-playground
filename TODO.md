@@ -1,6 +1,6 @@
 ## Work items
 
-- Support `Playground` component in `AppBars` `Toolbars` components.
+- Support `Playground` component in `AppBars` `Toolbars` `Navigation Drawers` components.
 
 
 ## Bugs
