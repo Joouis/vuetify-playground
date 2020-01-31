@@ -30,6 +30,7 @@ const routes = [
   { path: '/images', name: 'Images' },
   { path: '/lazy', name: 'Lazy' },
   { path: '/lists', name: 'Lists' },
+  { path: '/menus', name: 'Menus' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,

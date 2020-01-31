@@ -29,6 +29,7 @@ import Icons from '../components/examples/Icons';
 import Images from '../components/examples/Images';
 import Lazy from '../components/examples/Lazy';
 import Lists from '../components/examples/Lists';
+import Menus from '../components/examples/Menus';
 
 Vue.use(VueRouter);
 
@@ -61,6 +62,7 @@ const routes = [
   { path: '/images', component: Images },
   { path: '/lazy', component: Lazy },
   { path: '/lists', component: Lists },
+  { path: '/menus', component: Menus },
   { path: '*', component: PageNotFound }
 ];
 
