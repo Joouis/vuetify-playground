@@ -31,6 +31,7 @@ import Lazy from '../components/examples/Lazy';
 import Lists from '../components/examples/Lists';
 import Menus from '../components/examples/Menus';
 import NavigationDrawers from '../components/examples/NavigationDrawers';
+import Overlays from '../components/examples/Overlays';
 
 Vue.use(VueRouter);
 
@@ -65,6 +66,7 @@ const routes = [
   { path: '/lists', component: Lists },
   { path: '/menus', component: Menus },
   { path: '/navigation-drawers', component: NavigationDrawers },
+  { path: '/overlays', component: Overlays },
   { path: '*', component: PageNotFound }
 ];
 

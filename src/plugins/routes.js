@@ -32,6 +32,7 @@ const routes = [
   { path: '/lists', name: 'Lists' },
   { path: '/menus', name: 'Menus' },
   { path: '/navigation-drawers', name: 'NavigationDrawers' },
+  { path: '/overlays', name: 'Overlays' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
