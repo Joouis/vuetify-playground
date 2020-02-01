@@ -32,6 +32,7 @@ import Lists from '../components/examples/Lists';
 import Menus from '../components/examples/Menus';
 import NavigationDrawers from '../components/examples/NavigationDrawers';
 import Overlays from '../components/examples/Overlays';
+import Paginations from '../components/examples/Paginations';
 
 Vue.use(VueRouter);
 
@@ -67,6 +68,7 @@ const routes = [
   { path: '/menus', component: Menus },
   { path: '/navigation-drawers', component: NavigationDrawers },
   { path: '/overlays', component: Overlays },
+  { path: '/paginations', component: Paginations },
   { path: '*', component: PageNotFound }
 ];
 
