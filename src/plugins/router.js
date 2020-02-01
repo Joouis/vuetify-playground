@@ -33,6 +33,7 @@ import Menus from '../components/examples/Menus';
 import NavigationDrawers from '../components/examples/NavigationDrawers';
 import Overlays from '../components/examples/Overlays';
 import Paginations from '../components/examples/Paginations';
+import Parallax from '../components/examples/Parallax';
 
 Vue.use(VueRouter);
 
@@ -69,6 +70,7 @@ const routes = [
   { path: '/navigation-drawers', component: NavigationDrawers },
   { path: '/overlays', component: Overlays },
   { path: '/paginations', component: Paginations },
+  { path: '/parallax', component: Parallax },
   { path: '*', component: PageNotFound }
 ];
 

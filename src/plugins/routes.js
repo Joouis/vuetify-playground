@@ -34,6 +34,7 @@ const routes = [
   { path: '/navigation-drawers', name: 'NavigationDrawers' },
   { path: '/overlays', name: 'Overlays' },
   { path: '/paginations', name: 'Paginations' },
+  { path: '/parallax', name: 'Parallax' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
