@@ -2,8 +2,21 @@
  * This file is for sitemap generation.
  */
 
-const routes = [
-  { path: '/', name: 'Homepage' },
+const lastmod = new Date() - 0;
+const rootRoutes = [{
+  name: 'Homepage',
+  path: 'vuetify-playground/',
+  lastmod,
+  priority: 1,
+  changefreq: 'yearly'
+}, {
+  name: 'Homepage',
+  path: 'vuetify-playground/#',
+  lastmod,
+  priority: 1,
+  changefreq: 'yearly'
+}];
+const subRoutes = [
   { path: '/alerts', name: 'Alerts' },
   { path: '/avatars', name: 'Avatars' },
   { path: '/badges', name: 'Badges' },
@@ -46,5 +59,7 @@ const routes = [
   priority: 1,
   changefreq: 'monthly'
 }));
+
+const routes = rootRoutes.concat(subRoutes);
 
 module.exports = routes;
