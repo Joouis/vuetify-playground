@@ -10,3 +10,4 @@
 - `Grids` examples display not well on mobile devices.
 - Reset scroll position after jumping to new route.
 - Items in part of List examples are not clickable.
+- `BoilerplateComponent` example of `SkeletonLoaders` can't work.

@@ -37,6 +37,7 @@ const routes = [
   { path: '/parallax', name: 'Parallax' },
   { path: '/ratings', name: 'Ratings' },
   { path: '/sheets', name: 'Sheets' },
+  { path: '/skeleton-loaders', name: 'SkeletonLoaders' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,

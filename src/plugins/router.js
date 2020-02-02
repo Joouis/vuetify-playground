@@ -36,6 +36,7 @@ import Paginations from '../components/examples/Paginations';
 import Parallax from '../components/examples/Parallax';
 import Ratings from '../components/examples/Ratings';
 import Sheets from '../components/examples/Sheets';
+import SkeletonLoaders from '../components/examples/SkeletonLoaders';
 
 Vue.use(VueRouter);
 
@@ -75,6 +76,7 @@ const routes = [
   { path: '/parallax', component: Parallax },
   { path: '/ratings', component: Ratings },
   { path: '/sheets', component: Sheets },
+  { path: '/skeleton-loaders', component: SkeletonLoaders },
   { path: '*', component: PageNotFound }
 ];
 
