@@ -35,6 +35,7 @@ import Overlays from '../components/examples/Overlays';
 import Paginations from '../components/examples/Paginations';
 import Parallax from '../components/examples/Parallax';
 import Ratings from '../components/examples/Ratings';
+import Sheets from '../components/examples/Sheets';
 
 Vue.use(VueRouter);
 
@@ -73,6 +74,7 @@ const routes = [
   { path: '/paginations', component: Paginations },
   { path: '/parallax', component: Parallax },
   { path: '/ratings', component: Ratings },
+  { path: '/sheets', component: Sheets },
   { path: '*', component: PageNotFound }
 ];
 
