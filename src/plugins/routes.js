@@ -38,7 +38,7 @@ const routes = [
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
-  path: `vuetify-playground${i.path}`,
+  path: `vuetify-playground/#${i.path}`,
   lastmod: new Date() - 0,
   priority: 1,
   changefreq: 'monthly'
