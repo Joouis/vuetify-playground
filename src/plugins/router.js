@@ -39,6 +39,7 @@ import Sheets from '../components/examples/Sheets';
 import SkeletonLoaders from '../components/examples/SkeletonLoaders';
 import Snackbars from '../components/examples/Snackbars';
 import Sparklines from '../components/examples/Sparklines';
+import Steppers from '../components/examples/Steppers';
 
 Vue.use(VueRouter);
 
@@ -81,6 +82,7 @@ const routes = [
   { path: '/skeleton-loaders', component: SkeletonLoaders },
   { path: '/snackbars', component: Snackbars },
   { path: '/sparklines', component: Sparklines },
+  { path: '/steppers', component: Steppers },
   { path: '*', component: PageNotFound }
 ];
 
