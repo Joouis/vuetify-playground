@@ -37,6 +37,7 @@ import Parallax from '../components/examples/Parallax';
 import Ratings from '../components/examples/Ratings';
 import Sheets from '../components/examples/Sheets';
 import SkeletonLoaders from '../components/examples/SkeletonLoaders';
+import Snackbars from '../components/examples/Snackbars';
 
 Vue.use(VueRouter);
 
@@ -77,6 +78,7 @@ const routes = [
   { path: '/ratings', component: Ratings },
   { path: '/sheets', component: Sheets },
   { path: '/skeleton-loaders', component: SkeletonLoaders },
+  { path: '/snackbars', component: Snackbars },
   { path: '*', component: PageNotFound }
 ];
 

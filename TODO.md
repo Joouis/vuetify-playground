@@ -1,6 +1,7 @@
 ## Work items
 
 - Support `Playground` component in `AppBars` `Toolbars` `Navigation Drawers` components.
+- Add "new" label for the components which labeled in official website.
 
 
 ## Bugs
