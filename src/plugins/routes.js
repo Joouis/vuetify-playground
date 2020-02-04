@@ -56,6 +56,7 @@ const subRoutes = [
   { path: '/steppers', name: 'Steppers' },
   { path: '/subheaders', name: 'Subheaders' },
   { path: '/tabs', name: 'Tabs' },
+  { path: '/timelines', name: 'Timelines' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,

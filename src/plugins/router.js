@@ -42,6 +42,7 @@ import Sparklines from '../components/examples/Sparklines';
 import Steppers from '../components/examples/Steppers';
 import Subheaders from '../components/examples/Subheaders';
 import Tabs from '../components/examples/Tabs';
+import Timelines from '../components/examples/Timelines';
 
 Vue.use(VueRouter);
 
@@ -87,6 +88,7 @@ const routes = [
   { path: '/steppers', component: Steppers },
   { path: '/subheaders', component: Subheaders },
   { path: '/tabs', component: Tabs },
+  { path: '/timelines', component: Timelines },
   { path: '*', component: PageNotFound }
 ];
 
