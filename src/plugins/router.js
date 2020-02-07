@@ -43,6 +43,7 @@ import Steppers from '../components/examples/Steppers';
 import Subheaders from '../components/examples/Subheaders';
 import Tabs from '../components/examples/Tabs';
 import Timelines from '../components/examples/Timelines';
+import Tooltips from '../components/examples/Tooltips';
 
 Vue.use(VueRouter);
 
@@ -89,6 +90,7 @@ const routes = [
   { path: '/subheaders', component: Subheaders },
   { path: '/tabs', component: Tabs },
   { path: '/timelines', component: Timelines },
+  { path: '/tooltips', component: Tooltips },
   { path: '*', component: PageNotFound }
 ];
 
