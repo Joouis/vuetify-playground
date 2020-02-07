@@ -59,6 +59,7 @@ const subRoutes = [
   { path: '/timelines', name: 'Timelines' },
   { path: '/tooltips', name: 'Tooltips' },
   { path: '/treeview', name: 'Treeview' },
+  { path: '/autocompletes', name: 'Autocompletes' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
