@@ -44,6 +44,7 @@ import Subheaders from '../components/examples/Subheaders';
 import Tabs from '../components/examples/Tabs';
 import Timelines from '../components/examples/Timelines';
 import Tooltips from '../components/examples/Tooltips';
+import Treeview from '../components/examples/Treeview';
 
 Vue.use(VueRouter);
 
@@ -91,6 +92,7 @@ const routes = [
   { path: '/tabs', component: Tabs },
   { path: '/timelines', component: Timelines },
   { path: '/tooltips', component: Tooltips },
+  { path: '/treeview', component: Treeview },
   { path: '*', component: PageNotFound }
 ];
 
