@@ -12,3 +12,4 @@
 - Reset scroll position after jumping to new route.
 - Items in part of List examples are not clickable.
 - `BoilerplateComponent` example of `SkeletonLoaders` can't work.
+- `VeeValidate` example of `Forms` can't work.

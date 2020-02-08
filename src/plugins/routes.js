@@ -62,6 +62,7 @@ const subRoutes = [
   { path: '/autocompletes', name: 'Autocompletes' },
   { path: '/combobox', name: 'Combobox' },
   { path: '/file-inputs', name: 'FileInputs' },
+  { path: '/forms', name: 'Forms' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
