@@ -46,6 +46,7 @@ import Timelines from '../components/examples/Timelines';
 import Tooltips from '../components/examples/Tooltips';
 import Treeview from '../components/examples/Treeview';
 import Autocompletes from '../components/examples/Autocompletes';
+import Combobox from '../components/examples/Combobox';
 
 Vue.use(VueRouter);
 
@@ -95,6 +96,7 @@ const routes = [
   { path: '/tooltips', component: Tooltips },
   { path: '/treeview', component: Treeview },
   { path: '/autocompletes', component: Autocompletes },
+  { path: '/combobox', component: Combobox },
   { path: '*', component: PageNotFound }
 ];
 
