@@ -49,6 +49,7 @@ import Autocompletes from '../components/examples/Autocompletes';
 import Combobox from '../components/examples/Combobox';
 import FileInputs from '../components/examples/FileInputs';
 import Forms from '../components/examples/Forms';
+import Inputs from '../components/examples/Inputs';
 
 Vue.use(VueRouter);
 
@@ -101,6 +102,7 @@ const routes = [
   { path: '/combobox', component: Combobox },
   { path: '/file-inputs', component: FileInputs },
   { path: '/forms', component: Forms },
+  { path: '/inputs', component: Inputs },
   { path: '*', component: PageNotFound }
 ];
 
