@@ -61,6 +61,7 @@ const subRoutes = [
   { path: '/treeview', name: 'Treeview' },
   { path: '/autocompletes', name: 'Autocompletes' },
   { path: '/combobox', name: 'Combobox' },
+  { path: '/file-inputs', name: 'FileInputs' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,

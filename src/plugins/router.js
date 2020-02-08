@@ -47,6 +47,7 @@ import Tooltips from '../components/examples/Tooltips';
 import Treeview from '../components/examples/Treeview';
 import Autocompletes from '../components/examples/Autocompletes';
 import Combobox from '../components/examples/Combobox';
+import FileInputs from '../components/examples/FileInputs';
 
 Vue.use(VueRouter);
 
@@ -97,6 +98,7 @@ const routes = [
   { path: '/treeview', component: Treeview },
   { path: '/autocompletes', component: Autocompletes },
   { path: '/combobox', component: Combobox },
+  { path: '/file-inputs', component: FileInputs },
   { path: '*', component: PageNotFound }
 ];
 
