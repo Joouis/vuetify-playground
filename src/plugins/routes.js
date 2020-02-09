@@ -65,6 +65,7 @@ const subRoutes = [
   { path: '/forms', name: 'Forms' },
   { path: '/inputs', name: 'Inputs' },
   { path: '/overflow-buttons', name: 'OverflowButtons' },
+  { path: '/selects', name: 'Selects' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
