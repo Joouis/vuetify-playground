@@ -50,6 +50,7 @@ import Combobox from '../components/examples/Combobox';
 import FileInputs from '../components/examples/FileInputs';
 import Forms from '../components/examples/Forms';
 import Inputs from '../components/examples/Inputs';
+import OverflowButtons from '../components/examples/OverflowButtons';
 
 Vue.use(VueRouter);
 
@@ -103,6 +104,7 @@ const routes = [
   { path: '/file-inputs', component: FileInputs },
   { path: '/forms', component: Forms },
   { path: '/inputs', component: Inputs },
+  { path: '/overflow-buttons', component: OverflowButtons },
   { path: '*', component: PageNotFound }
 ];
 
