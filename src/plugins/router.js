@@ -24,6 +24,7 @@ import Dividers from '../components/examples/Dividers';
 import ExpansionPanels from '../components/examples/ExpansionPanels';
 import Footer from '../components/examples/Footer';
 import Grids from '../components/examples/Grids';
+import ButtonGroups from '../components/examples/ButtonGroups';
 import Hover from '../components/examples/Hover';
 import Icons from '../components/examples/Icons';
 import Images from '../components/examples/Images';
@@ -79,6 +80,7 @@ const routes = [
   { path: '/expansion-panels', component: ExpansionPanels },
   { path: '/footer', component: Footer },
   { path: '/grids', component: Grids },
+  { path: '/button-groups', component: ButtonGroups },
   { path: '/hover', component: Hover },
   { path: '/icons', component: Icons },
   { path: '/images', component: Images },
