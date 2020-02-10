@@ -27,6 +27,7 @@ import Grids from '../components/examples/Grids';
 import ButtonGroups from '../components/examples/ButtonGroups';
 import ChipGroups from '../components/examples/ChipGroups';
 import ItemGroups from '../components/examples/ItemGroups';
+import ListItemGroups from '../components/examples/ListItemGroups';
 import Hover from '../components/examples/Hover';
 import Icons from '../components/examples/Icons';
 import Images from '../components/examples/Images';
@@ -85,6 +86,7 @@ const routes = [
   { path: '/button-groups', component: ButtonGroups },
   { path: '/chip-groups', component: ChipGroups },
   { path: '/item-groups', component: ItemGroups },
+  { path: '/list-item-groups', component: ListItemGroups },
   { path: '/hover', component: Hover },
   { path: '/icons', component: Icons },
   { path: '/images', component: Images },
