@@ -10,7 +10,7 @@
     "sitemap": "vue-cli-service sitemap"
   },
   "dependencies": {
-    "@mdi/js": "^4.8.95",
+    "@mdi/js": "^4.9.95",
     "core-js": "^3.4.4",
     "vue": "^2.6.10",
     "vue-analytics": "^5.22.1",
