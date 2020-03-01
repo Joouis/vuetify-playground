@@ -60,6 +60,7 @@ import OverflowButtons from '../components/examples/OverflowButtons';
 import Selects from '../components/examples/Selects';
 import SelectionControls from '../components/examples/SelectionControls';
 import Sliders from '../components/examples/Sliders';
+import Textareas from '../components/examples/Textareas';
 
 Vue.use(VueRouter);
 
@@ -123,6 +124,7 @@ const routes = [
   { path: '/selects', component: Selects },
   { path: '/selection-controls', component: SelectionControls },
   { path: '/sliders', component: Sliders },
+  { path: '/textareas', component: Textareas },
   { path: '*', component: PageNotFound }
 ];
 
