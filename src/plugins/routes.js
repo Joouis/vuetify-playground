@@ -80,6 +80,7 @@ const subRoutes = [
   { path: '/date-pickers', name: 'DatePickers' },
   { path: '/time-pickers', name: 'TimePickers' },
   { path: '/progress-linear', name: 'ProgressLinear' },
+  { path: '/progress-circular', name: 'ProgressCircular' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
