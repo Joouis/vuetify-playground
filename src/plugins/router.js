@@ -65,6 +65,8 @@ import TextFields from '../components/examples/TextFields';
 import ColorPickers from '../components/examples/ColorPickers';
 import DatePickers from '../components/examples/DatePickers';
 import TimePickers from '../components/examples/TimePickers';
+import ProgressLinear from '../components/examples/ProgressLinear';
+import ProgressCircular from '../components/examples/ProgressCircular';
 
 Vue.use(VueRouter);
 
@@ -133,6 +135,8 @@ const routes = [
   { path: '/color-pickers', component: ColorPickers },
   { path: '/date-pickers', component: DatePickers },
   { path: '/time-pickers', component: TimePickers },
+  { path: '/progress-linear', component: ProgressLinear },
+  { path: '/progress-circular', component: ProgressCircular },
   { path: '*', component: PageNotFound }
 ];
 
