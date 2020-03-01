@@ -1,5 +1,5 @@
 <template>
-  <v-row align="center">
+  <div align="center">
     <v-row justify="space-around">
       <v-switch v-model="autorun" class="ma-2" label="Automatic switching"></v-switch>
       <v-switch v-model="showArrows" class="ma-2" label="Show arrows"></v-switch>
@@ -44,7 +44,7 @@
         </v-card>
       </v-window-item>
     </v-window>
-  </v-row>
+  </div>
 </template>
 
 <script>
