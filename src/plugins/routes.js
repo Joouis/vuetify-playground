@@ -82,6 +82,7 @@ const subRoutes = [
   { path: '/progress-linear', name: 'ProgressLinear' },
   { path: '/progress-circular', name: 'ProgressCircular' },
   { path: '/data-iterators', name: 'DataIterators' },
+  { path: '/simple-tables', name: 'SimpleTables' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
