@@ -117,9 +117,9 @@ export const COMPONENTS_MANIFEST = [
   }, {
     title: 'Progress',
     items: [{
-      title: 'Circular'
+      title: 'Progress circular'
     }, {
-      title: 'Linear'
+      title: 'Progress linear'
     }]
   }, {
     title: 'Ratings'
