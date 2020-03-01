@@ -77,6 +77,7 @@ const subRoutes = [
   { path: '/textareas', name: 'Textareas' },
   { path: '/text-fields', name: 'TextFields' },
   { path: '/color-pickers', name: 'ColorPickers' },
+  { path: '/date-pickers', name: 'DatePickers' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
