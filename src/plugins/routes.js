@@ -75,6 +75,7 @@ const subRoutes = [
   { path: '/selection-controls', name: 'SelectionControls' },
   { path: '/sliders', name: 'Sliders' },
   { path: '/textareas', name: 'Textareas' },
+  { path: '/text-fields', name: 'TextFields' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
