@@ -14,5 +14,5 @@
 - `BoilerplateComponent` example of `SkeletonLoaders` can't work.
 - `VeeValidate` example of `Forms` can't work.
 - `Windows` example of `Groups` can't work on mobile devices.
-- Landscape view of `DatePickers` shows incompelete.
+- Landscape views of `DatePickers` `TimePicker` are incompelete.
 - "Date pickers - formatting date using external libs" example has wrong value for `datefns` case.
