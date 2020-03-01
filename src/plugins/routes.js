@@ -73,6 +73,7 @@ const subRoutes = [
   { path: '/overflow-buttons', name: 'OverflowButtons' },
   { path: '/selects', name: 'Selects' },
   { path: '/selection-controls', name: 'SelectionControls' },
+  { path: '/sliders', name: 'Sliders' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
