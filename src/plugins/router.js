@@ -24,6 +24,12 @@ import Dividers from '../components/examples/Dividers';
 import ExpansionPanels from '../components/examples/ExpansionPanels';
 import Footer from '../components/examples/Footer';
 import Grids from '../components/examples/Grids';
+import ButtonGroups from '../components/examples/ButtonGroups';
+import ChipGroups from '../components/examples/ChipGroups';
+import ItemGroups from '../components/examples/ItemGroups';
+import ListItemGroups from '../components/examples/ListItemGroups';
+import SlideGroups from '../components/examples/SlideGroups';
+import Windows from '../components/examples/Windows';
 import Hover from '../components/examples/Hover';
 import Icons from '../components/examples/Icons';
 import Images from '../components/examples/Images';
@@ -79,6 +85,12 @@ const routes = [
   { path: '/expansion-panels', component: ExpansionPanels },
   { path: '/footer', component: Footer },
   { path: '/grids', component: Grids },
+  { path: '/button-groups', component: ButtonGroups },
+  { path: '/chip-groups', component: ChipGroups },
+  { path: '/item-groups', component: ItemGroups },
+  { path: '/list-item-groups', component: ListItemGroups },
+  { path: '/slide-groups', component: SlideGroups },
+  { path: '/windows', component: Windows },
   { path: '/hover', component: Hover },
   { path: '/icons', component: Icons },
   { path: '/images', component: Images },

@@ -13,3 +13,4 @@
 - Items in part of List examples are not clickable.
 - `BoilerplateComponent` example of `SkeletonLoaders` can't work.
 - `VeeValidate` example of `Forms` can't work.
+- `Windows` example of `Groups` can't work on mobile devices.
