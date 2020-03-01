@@ -58,6 +58,10 @@ import Forms from '../components/examples/Forms';
 import Inputs from '../components/examples/Inputs';
 import OverflowButtons from '../components/examples/OverflowButtons';
 import Selects from '../components/examples/Selects';
+import SelectionControls from '../components/examples/SelectionControls';
+import Sliders from '../components/examples/Sliders';
+import Textareas from '../components/examples/Textareas';
+import TextFields from '../components/examples/TextFields';
 
 Vue.use(VueRouter);
 
@@ -119,6 +123,10 @@ const routes = [
   { path: '/inputs', component: Inputs },
   { path: '/overflow-buttons', component: OverflowButtons },
   { path: '/selects', component: Selects },
+  { path: '/selection-controls', component: SelectionControls },
+  { path: '/sliders', component: Sliders },
+  { path: '/textareas', component: Textareas },
+  { path: '/text-fields', component: TextFields },
   { path: '*', component: PageNotFound }
 ];
 
