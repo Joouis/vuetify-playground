@@ -58,6 +58,7 @@ import Forms from '../components/examples/Forms';
 import Inputs from '../components/examples/Inputs';
 import OverflowButtons from '../components/examples/OverflowButtons';
 import Selects from '../components/examples/Selects';
+import SelectionControls from '../components/examples/SelectionControls';
 
 Vue.use(VueRouter);
 
@@ -119,6 +120,7 @@ const routes = [
   { path: '/inputs', component: Inputs },
   { path: '/overflow-buttons', component: OverflowButtons },
   { path: '/selects', component: Selects },
+  { path: '/selection-controls', component: SelectionControls },
   { path: '*', component: PageNotFound }
 ];
 

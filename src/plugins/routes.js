@@ -38,6 +38,12 @@ const subRoutes = [
   { path: '/expansion-panels', name: 'Expansion Panels' },
   { path: '/footer', name: 'Footer' },
   { path: '/grids', name: 'Grids' },
+  { path: '/button-groups', name: 'ButtonGroups' },
+  { path: '/chip-groups', name: 'ChipGroups' },
+  { path: '/item-groups', name: 'ItemGroups' },
+  { path: '/list-item-groups', name: 'ListItemGroups' },
+  { path: '/slide-groups', name: 'SlideGroups' },
+  { path: '/windows', name: 'Windows' },
   { path: '/hover', name: 'Hover' },
   { path: '/icons', name: 'Icons' },
   { path: '/images', name: 'Images' },
@@ -66,6 +72,7 @@ const subRoutes = [
   { path: '/inputs', name: 'Inputs' },
   { path: '/overflow-buttons', name: 'OverflowButtons' },
   { path: '/selects', name: 'Selects' },
+  { path: '/selection-controls', name: 'SelectionControls' },
   { path: '/*', name: '404' }
 ].map(i => ({
   ...i,
