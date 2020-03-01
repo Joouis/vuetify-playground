@@ -69,6 +69,7 @@ import ProgressLinear from '../components/examples/ProgressLinear';
 import ProgressCircular from '../components/examples/ProgressCircular';
 import DataIterators from '../components/examples/DataIterators';
 import SimpleTables from '../components/examples/SimpleTables';
+import DataTables from '../components/examples/DataTables';
 
 Vue.use(VueRouter);
 
@@ -141,6 +142,7 @@ const routes = [
   { path: '/progress-circular', component: ProgressCircular },
   { path: '/data-iterators', component: DataIterators },
   { path: '/simple-tables', component: SimpleTables },
+  { path: '/data-tables', component: DataTables },
   { path: '*', component: PageNotFound }
 ];
 
