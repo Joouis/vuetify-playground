@@ -62,6 +62,7 @@ import SelectionControls from '../components/examples/SelectionControls';
 import Sliders from '../components/examples/Sliders';
 import Textareas from '../components/examples/Textareas';
 import TextFields from '../components/examples/TextFields';
+import ColorPickers from '../components/examples/ColorPickers';
 
 Vue.use(VueRouter);
 
@@ -127,6 +128,7 @@ const routes = [
   { path: '/sliders', component: Sliders },
   { path: '/textareas', component: Textareas },
   { path: '/text-fields', component: TextFields },
+  { path: '/color-pickers', component: ColorPickers },
   { path: '*', component: PageNotFound }
 ];
 
