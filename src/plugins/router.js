@@ -67,6 +67,7 @@ import DatePickers from '../components/examples/DatePickers';
 import TimePickers from '../components/examples/TimePickers';
 import ProgressLinear from '../components/examples/ProgressLinear';
 import ProgressCircular from '../components/examples/ProgressCircular';
+import DataIterators from '../components/examples/DataIterators';
 
 Vue.use(VueRouter);
 
@@ -137,6 +138,7 @@ const routes = [
   { path: '/time-pickers', component: TimePickers },
   { path: '/progress-linear', component: ProgressLinear },
   { path: '/progress-circular', component: ProgressCircular },
+  { path: '/data-iterators', component: DataIterators },
   { path: '*', component: PageNotFound }
 ];
 
